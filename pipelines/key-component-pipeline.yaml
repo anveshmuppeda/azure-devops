@@ -35,7 +35,7 @@ stages:
     - script: echo "Deploying the application..."
       displayName: 'Deploy Application'
   ## Job 2.2
-  - job: DeployJob
+  - job: TestJob
     displayName: 'Test Job'
     steps:
     - script: echo "Testing the application..."
