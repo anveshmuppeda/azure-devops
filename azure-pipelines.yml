@@ -6,8 +6,7 @@
 trigger:
 - main
 
-pool:
-  vmImage: ubuntu-latest
+pool: kubernetes-self-hosted-agent
 
 steps:
 - script: echo Hello, world!
