@@ -3,23 +3,23 @@
 <a name="azuredevopsheader"></a>   
 Welcome to the series on Azure Devops. Are you tired of juggling multiple tools to manage your software projects? Enter Azure DevOps — a one-stop solution by Microsoft to make your development life easier.  
 
-#### What is Azure DevOps?  
+### What is Azure DevOps?  
 Think of Azure DevOps as your digital assistant for building software. It helps you with everything from planning what needs to be done to getting the finished product out the door and into the hands of your users.   
 
-#### What Can You Do with Azure DevOps?  
-##### 1. Plan Your Work:
+### What Can You Do with Azure DevOps?  
+#### 1. Plan Your Work:
 Imagine a virtual whiteboard where you can jot down ideas, assign tasks, and keep track of progress. That’s Azure Boards for you! It keeps everyone on the same page and ensures nothing falls through the cracks.  
 
-##### 2. Store Your Code Safely:
+#### 2. Store Your Code Safely:
 No more emailing code back and forth or worrying about losing your work. Azure Repos provides a safe and organized home for your code, making collaboration a breeze.  
 
-##### 3. Automate the Boring Stuff:
+#### 3. Automate the Boring Stuff:
 Ever find yourself repeating the same steps over and over again? Azure Pipelines automates these tasks for you, like building your code, running tests, and deploying your application — all without breaking a sweat.  
 
-##### 4. Manage Your Packages:
+#### 4. Manage Your Packages:
 Keep all your software bits and pieces in one place with Azure Artifacts. Whether it’s a library, a plugin, or something else entirely, you can store it here and share it with your team whenever they need it.  
 
-##### 5. Test with Confidence:
+#### 5. Test with Confidence:
 Nobody likes bugs. With Azure Test Plans, you can catch those pesky bugs before they reach your users. Plan your tests, run them, and keep track of what’s been checked — all in one handy tool.  
 
 ### Blogs  
