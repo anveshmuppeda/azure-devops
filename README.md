@@ -2,7 +2,7 @@
 
 <a name="azuredevopsheader"></a>   
 
-## BLOGS 
+### Blogs  
 **PART-1** : [🚀 Mastering Azure DevOps - PART-1](https://medium.com/@muppedaanvesh/mastering-azure-devops-part-1-b34c05470bf5)  
 **PART-2** : [🚀 Introduction to Azure DevOps Pipelines - PART-2 🛠️ ](https://medium.com/@muppedaanvesh/introduction-to-azure-devops-pipelines-part-2-%EF%B8%8F-85d04302d049)   
 **PART-3** : [⚙️ Creating Your First Azure DevOps Pipeline 🛠️ ](https://medium.com/@muppedaanvesh/%EF%B8%8F-creating-your-first-azure-devops-pipeline-%EF%B8%8F-280ae8da30cc)   
@@ -17,7 +17,7 @@
 </table>  
 
 
-## Contact Information  
+### Contact Information  
 If you have any questions or feedback, feel free to reach out:  
 
 - Email: muppedaanvesh@gmail.com 📧  
@@ -27,7 +27,7 @@ If you have any questions or feedback, feel free to reach out:
 --- 
 
 
-## Feedback Welcome!  
+### Feedback Welcome!  
 
 We welcome your feedback and suggestions! If you encounter any issues or have ideas for improvements, please open an issue on our [GitHub repository](https://github.com/anveshmuppeda/azure-devops/issues). 🚀   
 
