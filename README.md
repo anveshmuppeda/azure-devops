@@ -5,6 +5,7 @@ Welcome to the series on Azure Devops. Are you tired of juggling multiple tools 
 
 ### What is Azure DevOps?  
 Think of Azure DevOps as your digital assistant for building software. It helps you with everything from planning what needs to be done to getting the finished product out the door and into the hands of your users.   
+
 ![Azure DevOps](./images/az-devops-part-1.gif)
 
 ### What Can You Do with Azure DevOps?  
