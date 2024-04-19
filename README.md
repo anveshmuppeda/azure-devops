@@ -22,7 +22,7 @@ Keep all your software bits and pieces in one place with Azure Artifacts. Whethe
 #### 5. Test with Confidence:
 Nobody likes bugs. With Azure Test Plans, you can catch those pesky bugs before they reach your users. Plan your tests, run them, and keep track of what’s been checked — all in one handy tool.  
 
-### Blogs  
+### Related Blogs  
 **PART-1** : [🚀 Mastering Azure DevOps - PART-1](https://medium.com/@muppedaanvesh/mastering-azure-devops-part-1-b34c05470bf5)  
 **PART-2** : [🚀 Introduction to Azure DevOps Pipelines - PART-2 🛠️ ](https://medium.com/@muppedaanvesh/introduction-to-azure-devops-pipelines-part-2-%EF%B8%8F-85d04302d049)   
 **PART-3** : [⚙️ Creating Your First Azure DevOps Pipeline 🛠️ ](https://medium.com/@muppedaanvesh/%EF%B8%8F-creating-your-first-azure-devops-pipeline-%EF%B8%8F-280ae8da30cc)   
