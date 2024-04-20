@@ -9,5 +9,9 @@ stages:
   - job: BuildJob
     displayName: "Build Job"
     steps:
-    - script: echo "Building on branch $(Build.SourceBranch)"
+    - script: |
+              echo "Building on branch $(Build.SourceBranch)"
+              echo "Current build number: $(Build.BuildNumber)"
+              echo "Source branch: $(Build.SourceBranch)"
+              echo "Definition name: $(Build.DefinitionName)"
       displayName: "Pre Defined"
