@@ -3,15 +3,24 @@ trigger:
 
 pool: kubernetes-self-hosted-agent
 
-# Define a user-defined variable
+# Define a user-defined variable at the pipeline level
 variables:
-  customVariable: "Hello from user-defined variable"
+  pipelineVariable: "Hello from pipeline-level variable"
 
 # Define stages
 stages:
 - stage: Build
+  env:
+    stageVariable: "Hello from stage-level variable"
   jobs:
   - job: BuildJob
+    variables:
+      jobVariable: "Hello from job-level variable"
     displayName: "Build Job"
     steps:
-    - script: echo $(customVariable)
+    - script: echo $(pipelineVariable)
+      displayName: "Pipeline Level"
+    - script: echo $(stageVariable)
+      displayName: "Stage Level"
+    - script: echo $(jobVariable)
+      displayName: "Job Level"
