@@ -1,6 +1,8 @@
 trigger:
 - main
 
+pool: kubernetes-self-hosted-agent
+
 # Reference a variable template
 variables:
 - template: myVariableTemplate.yml

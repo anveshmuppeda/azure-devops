@@ -1,6 +1,8 @@
 trigger:
 - main
 
+pool: kubernetes-self-hosted-agent
+
 # Define stages
 stages:
 - stage: Build
