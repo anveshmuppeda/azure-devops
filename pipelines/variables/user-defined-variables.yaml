@@ -1,0 +1,15 @@
+trigger:
+- main
+
+# Define a user-defined variable
+variables:
+  customVariable: "Hello from user-defined variable"
+
+# Define stages
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    displayName: "Build Job"
+    steps:
+    - script: echo $(customVariable)

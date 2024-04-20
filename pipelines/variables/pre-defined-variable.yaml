@@ -1,0 +1,11 @@
+trigger:
+- main
+
+# Define stages
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    displayName: "Build Job"
+    steps:
+    - script: echo "Building on branch $(Build.SourceBranch)"

@@ -1,0 +1,15 @@
+trigger:
+- main
+
+# Reference a variable template
+variables:
+- template: myVariableTemplate.yml
+
+# Define stages
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    displayName: "Build Job"
+    steps:
+    - script: echo $(templateVariable)

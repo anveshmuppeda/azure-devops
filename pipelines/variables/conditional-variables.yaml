@@ -1,0 +1,16 @@
+trigger:
+- main
+
+# Define a user-defined variable
+variables:
+  myVariable: true
+
+# Define stages
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    displayName: "Build Job"
+    steps:
+    - script: echo "This step will only run if myVariable is set to true"
+      condition: eq(variables['myVariable'], 'true')

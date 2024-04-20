@@ -1,0 +1,11 @@
+# Define a pipeline-level variable
+variables:
+  pipelineVariable: "Hello from pipeline variable"
+
+# Define stages and jobs
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    steps:
+    - script: echo $(pipelineVariable)

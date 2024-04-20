@@ -1,0 +1,15 @@
+trigger:
+- main
+
+# Reference a variable group
+variables:
+- group: myVariableGroup
+
+# Define stages
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    displayName: "Build Job"
+    steps:
+    - script: echo $(groupVariable)

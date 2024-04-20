@@ -1,0 +1,23 @@
+# Pipeline Variables
+
+trigger: none
+# - main
+
+pool: kubernetes-self-hosted-agent
+
+# Define a pipeline-level variable
+variables:
+  pipelineVariable: "Hello from pipeline variable"
+
+# Define stages and jobs
+stages:
+- stage: Build
+  jobs:
+  - job: BuildJob
+    steps:
+    - script: echo "$(pipelineVariable)"
+- stage: Deploy
+  jobs:
+  - job: DeployJob
+    steps:
+    - script: echo Deploy Stage $(pipelineVariable)
