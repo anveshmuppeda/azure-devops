@@ -9,5 +9,5 @@ stages:
   - job: BuildJob
     displayName: "Build Job"
     steps:
-    - script: echo "The current working directory is ${{ env.BUILD_SOURCESDIRECTORY }}"
+    - script: echo "The current working directory is ${{ BUILD_SOURCESDIRECTORY }}"
       displayName: "Env variable"
