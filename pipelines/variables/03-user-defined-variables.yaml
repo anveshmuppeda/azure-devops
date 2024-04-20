@@ -10,7 +10,7 @@ variables:
 # Define stages
 stages:
 - stage: Build
-  env:
+  variables:
     stageVariable: "Hello from stage-level variable"
   jobs:
   - job: BuildJob
