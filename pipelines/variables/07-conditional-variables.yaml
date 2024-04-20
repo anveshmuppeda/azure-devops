@@ -4,7 +4,7 @@ pool: kubernetes-self-hosted-agent
 
 # Define a user-defined variable
 variables:
-  myVariable: true
+  myVariable: false
 
 # Define stages
 stages:
@@ -15,4 +15,7 @@ stages:
     steps:
     - script: echo "This step will only run if myVariable is set to true"
       condition: eq(variables['myVariable'], 'true')
+      displayName: "Conditional variable"
+    - script: echo "This step will only run if myVariable is set to false"
+      condition: eq(variables['myVariable'], 'false')
       displayName: "Conditional variable"
