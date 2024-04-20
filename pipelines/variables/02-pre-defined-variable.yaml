@@ -10,3 +10,4 @@ stages:
     displayName: "Build Job"
     steps:
     - script: echo "Building on branch $(Build.SourceBranch)"
+      displayName: "Pre Defined"

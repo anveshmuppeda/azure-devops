@@ -15,3 +15,4 @@ stages:
     steps:
     - script: echo "This step will only run if myVariable is set to true"
       condition: eq(variables['myVariable'], 'true')
+      displayName: "Conditional variable"

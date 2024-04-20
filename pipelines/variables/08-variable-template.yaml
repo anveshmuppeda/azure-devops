@@ -14,3 +14,4 @@ stages:
     displayName: "Build Job"
     steps:
     - script: echo $(templateVariable)
+      displayName: "Variable template"
