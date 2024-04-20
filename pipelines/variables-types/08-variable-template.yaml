@@ -4,7 +4,7 @@ pool: kubernetes-self-hosted-agent
 
 # Reference a variable template
 variables:
-- template: pipelines/variables-types/myVariableTemplate.yaml
+- template: myVariableTemplate.yaml
 
 # Define stages
 stages:
