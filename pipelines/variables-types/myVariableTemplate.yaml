@@ -1,0 +1,2 @@
+- name: templateVariable
+  value: "This is from myVariableTemaplate.yaml variable file"
