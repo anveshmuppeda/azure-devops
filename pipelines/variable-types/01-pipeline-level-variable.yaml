@@ -1,5 +1,6 @@
 # Pipeline level variables
 
+# This pipeline will print the pipelineVariable value from pipeline level variables section.
 trigger: none
 # - main
 

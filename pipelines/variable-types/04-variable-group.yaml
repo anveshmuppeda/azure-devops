@@ -1,3 +1,6 @@
+
+# This pipeline will print the groupVariable value from the library group of myVariableGroup.
+
 trigger: none
 
 pool: kubernetes-self-hosted-agent

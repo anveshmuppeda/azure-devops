@@ -1,3 +1,6 @@
+
+# This pipeline will print the templateVariable value from the template of myVariableTemplate.yaml file.
+
 trigger: none
 
 pool: kubernetes-self-hosted-agent

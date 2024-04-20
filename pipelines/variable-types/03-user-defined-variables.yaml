@@ -1,3 +1,6 @@
+
+# This pipeline will print the pipelineVariable, stageVariable, and jobVariable values from the user defined variables section.
+
 trigger: none
 
 pool: kubernetes-self-hosted-agent

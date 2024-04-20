@@ -1,3 +1,6 @@
+
+# This pipeline will print the PWD, and HOME values from environment variables.
+
 trigger: none
 
 pool: kubernetes-self-hosted-agent

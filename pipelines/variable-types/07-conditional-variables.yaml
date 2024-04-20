@@ -1,3 +1,6 @@
+
+# This pipeline will execute the both the scripts based on the value of myVariable value.
+
 trigger: none
 
 pool: kubernetes-self-hosted-agent
