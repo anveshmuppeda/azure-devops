@@ -1,2 +1,4 @@
+# Corrected variable template file (myVariableTemplate.yaml)
+variables:
 - name: templateVariable
-  value: "This is from myVariableTemaplate.yaml variable file"
+  value: "This is from myVariableTemplate.yaml variable file"
