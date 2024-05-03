@@ -25,3 +25,25 @@
 | **Fork**        | N/A                       | Fork                          |
 | **Stash**       | Shelve changes            | Stash changes                 |
 
+
+## Azure DevOps TFVC vs Git  
+
+| Feature                      | TFVC                                    | Git                                        |
+|------------------------------|-----------------------------------------|--------------------------------------------|
+| **Type of Version Control**  | Centralized                             | Distributed                                |
+| **Branching and Merging**    | More rigid, can be complex              | Lightweight, more flexible                 |
+| **Check-out/Check-in**       | Files checked out with lock             | No lock required, concurrent work allowed |
+| **History Tracking**         | Changesets                              | Commits                                    |
+| **File System**              | Exclusive file locking                  | No exclusive file locking                  |
+| **Workflow Flexibility**     | Less flexible, more linear              | Highly flexible, supports various workflows |
+| **Collaboration**            | Less suitable for distributed teams     | Excellent for distributed teams            |
+| **Performance with Large Binary Files** | Handles large files better      | Not as efficient with large files          |
+| **Learning Curve**           | Easier for centralized VC users         | Steeper, especially for new users          |
+| **Offline Work**             | Requires server connection              | Supports extensive offline work            |
+| **Repository Size**          | Handles large repositories well         | Repository size can become an issue        |
+| **Branching Complexity**     | More complex                            | Simplified                                 |
+| **Merge Conflicts**          | Fewer automatic resolutions            | Better support for resolving conflicts     |
+| **History Examination**      | Tracks changesets and work items        | Granular tracking at the commit level      |
+| **Tooling Integration**      | Integrates well with Microsoft tools    | Integrates with various tools              |
+| **Open Source Projects**     | Less common                             | Widely used                                |
+
