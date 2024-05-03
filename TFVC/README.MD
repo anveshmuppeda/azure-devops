@@ -1,6 +1,6 @@
 # Team Foundation Version Control (TFVC) and Git  
 
-# Azure DevOps TFVC vs Git - Keyword Comparison
+## Azure DevOps TFVC vs Git - Keyword Comparison
 
 | Feature/Concept | TFVC                      | Git                           |
 |-----------------|---------------------------|-------------------------------|
