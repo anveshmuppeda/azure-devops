@@ -47,3 +47,123 @@
 | **Tooling Integration**      | Integrates well with Microsoft tools    | Integrates with various tools              |
 | **Open Source Projects**     | Less common                             | Widely used                                |
 
+
+
+Here are some common TFVC commands along with examples:
+
+### Get Latest Version:  
+Command: tf get   
+Example: Get the latest version of all files in the workspace.  
+```bash
+tf get
+```  
+
+### Check Out File:  
+Command: tf checkout  
+Example: Check out a file for editing.  
+```bash
+tf checkout myfile.cs
+```  
+
+### Check In File:  
+Command: tf checkin  
+Example: Check in a file with a comment.  
+```bash
+tf checkin myfile.cs /comment:"Implemented new feature"
+```  
+
+###  Undo Check Out:  
+Command: tf undo  
+Example: Undo checkout of a file.  
+```bash
+tf undo myfile.cs
+```  
+
+## Workspace Operations  
+### Create Workspace:  
+Command: tf workspace  
+Example: Create a new workspace.  
+```bash
+tf worksace /new MyWorkspace /server:http://tfvc-server:8080/tfs/DefaultCollection
+```  
+
+### List Workspaces:  
+Command: tf workspaces  
+Example: List all workspaces on the server.  
+```bash
+tf workspaces /server:http://tfvc-server:8080/tfs/DefaultCollection
+```  
+
+### Map Workspace:  
+Command: tf workfold  
+Example: Map a local directory to a server folder in a workspace.  
+```bash
+tf workfold /map "$/Project" C:\Workspace\Project /server:http://tfvc-server:8080/tfs/DefaultCollection
+```
+
+## History and Changesets  
+### View History:  
+Command: tf history  
+Example: View history of a file.  
+```bash
+tf history myfile.cs
+```  
+
+### View Changeset Details:  
+Command: tf changeset  
+Example: View details of a specific changeset.  
+```bash
+tf changeset 1234
+```  
+
+### Get Specific Version:  
+Command: tf get  
+Example: Get a specific version of a file.  
+```bash
+tf get myfile.cs /version:C1234
+```  
+
+## Branching and Merging   
+
+### Create Branch:  
+Command: tf branch  
+Example: Create a branch from a source folder to a target folder.  
+```bash
+tf branch $/Project/Main $/Project/FeatureBranch /comment:"Created feature branch for new feature"
+```  
+
+### Merge Changes:  
+Command: tf merge  
+Example: Merge changes from one branch to another.  
+```bash
+tf merge $/Project/FeatureBranch $/Project/Main /recursive /version:T /comment:"Merged feature branch into main"
+```  
+
+### Resolve Merge Conflicts:  
+Command: tf resolve  
+Example: Resolve merge conflicts in a file.  
+```bash
+tf resolve myfile.cs /auto:KeepYours
+```  
+
+## Miscellaneous  
+### Get Latest on Specific Folder:  
+Command: tf get  
+Example: Get the latest version of files in a specific folder.  
+```bash
+tf get $/Project/Subfolder
+```  
+
+### Label Files:  
+Command: tf label  
+Example: Label a set of files.  
+```bash
+tf label MyLabel $/Project/Subfolder /comment:"Labeling files for release"
+```  
+### View Pending Changes:  
+Command: tf status  
+Example: View pending changes in the workspace.  
+```bash
+tf status
+```  
+These commands should give you a good starting point for using TFVC in Azure DevOps. Make sure to replace placeholders like myfile.cs and $\Project with your actual file and project names.  
