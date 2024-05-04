@@ -1,0 +1,13 @@
+{
+    "folder": null,
+    "name": "pipeline-made-by-api-2",
+    "configuration": {
+      "type": "yaml",
+      "path": "/azure-rest-api-pipeline.yaml",
+      "repository": {
+        "id": "eba9d845-71ed-403a-a2ac-a5af2b0d8866",
+        "name": "azure-devops-series",
+        "type": "azureReposGit"
+      }
+    }
+}
