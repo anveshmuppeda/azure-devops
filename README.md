@@ -29,7 +29,9 @@ Nobody likes bugs. With Azure Test Plans, you can catch those pesky bugs before 
 **PART-2** : [🚀 Introduction to Azure DevOps Pipelines - PART-2 🛠️ ](https://medium.com/@muppedaanvesh/introduction-to-azure-devops-pipelines-part-2-%EF%B8%8F-85d04302d049)   
 **PART-3** : [⚙️ Creating Your First Azure DevOps Pipeline 🛠️ ](https://medium.com/@muppedaanvesh/%EF%B8%8F-creating-your-first-azure-devops-pipeline-%EF%B8%8F-280ae8da30cc)   
 **PART-4** : [⚙️ Azure DevOps Pipeline Essentials: Jobs, Stages, Tasks, & Steps 🛠️](https://medium.com/@muppedaanvesh/%EF%B8%8F-azure-devops-pipeline-essentials-jobs-stages-tasks-steps-%EF%B8%8F-1757d6366201)  
-
+**PART-5** :  [⚙️ A Hand-On Guide to Azure DevOps Pipeline Variable Types🛠️](https://medium.com/@muppedaanvesh/%EF%B8%8F-a-hand-on-guide-to-azure-devops-pipeline-variable-types-%EF%B8%8F-a6992af85c6b)
+**PART-6** :  [🚀 Azure DevOps: Creating a TFVC-Based Project 🛠️](https://medium.com/@muppedaanvesh/azure-devops-creating-a-tfvc-based-project-%EF%B8%8F-6b86031260d1)
+**PART-7** : [🔄 TFVC to Git Migration in Azure DevOps 🛠️](https://medium.com/@muppedaanvesh/tfvc-to-git-migration-in-azure-devops-%EF%B8%8F-23eeee7ce583)
 
 ## Project Maintainers & Contributors  
 <table>
