@@ -3,6 +3,16 @@
 In your code repository, create a YAML file named azure-restapi-pipeline.yaml or any name you prefer.  
 
 ## Create pipeline json  
+
+### Setting up environment variables   
+```bash
+# Replace placeholders with your actual values
+ORGANIZATION="your-organization"
+PROJECT="your-project"
+REPOSITORY="your-repository"
+PAT="your-personal-access-token"
+```   
+
 ### Get repository ID  
 ```bash
 REPO_ID=$(curl -s -X GET "https://dev.azure.com/$ORGANIZATION/$PROJECT/_apis/git/repositories/$REPOSITORY" -H "Authorization: Basic $PAT" | jq -r '.id')
@@ -31,15 +41,6 @@ Replace "name" with the name of your pipeline, "path" with the directory where y
 ## Use Azure DevOps REST API:   
 You'll need to use the Azure DevOps REST API to create the pipeline. Here's a simplified example using cURL:  
 
-### Setting up environment variables   
-```bash
-# Replace placeholders with your actual values
-ORGANIZATION="your-organization"
-PROJECT="your-project"
-REPOSITORY="your-repository"
-PAT="your-personal-access-token"
-```  
-
 ### Create pipeline  
 ```bash
 curl --user ":$PAT" \
@@ -63,4 +64,4 @@ curl --user '':'MYPATTOKEN' \
   --header "Accept: application/json" \
   'https://dev.azure.com/amuppeda/azure-devops-series/_apis/pipelines?api-version=6.1-preview.1' \
   -d @apipipeline.json
-```
+```   
